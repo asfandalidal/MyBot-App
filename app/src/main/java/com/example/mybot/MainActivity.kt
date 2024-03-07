@@ -17,7 +17,7 @@ import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
     private lateinit var progressDialog: ProgressDialog
-    private val apiKey = "AIzaSyApApvD3VbQ-Si5rRxJ7y2vZY31ScKvGqU"
+    private val apiKey = "apikey"
     private lateinit var binding: ActivityMainBinding
     private lateinit var generativeModel:GenerativeModel // Placeholder for GenerativeModel
     override fun onCreate(savedInstanceState: Bundle?) {
